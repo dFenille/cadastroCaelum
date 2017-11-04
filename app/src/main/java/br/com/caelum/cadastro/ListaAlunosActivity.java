@@ -1,6 +1,7 @@
 package br.com.caelum.cadastro;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -93,12 +94,54 @@ public class ListaAlunosActivity extends AppCompatActivity {
         item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
-                    AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
+                AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
                 AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
                 Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
                 alunoDao.excluir(aluno);
                 carregaLista();
 
+                return false;
+            }
+        });
+
+        MenuItem itemMapa = menu.add("Mapa");
+        itemMapa.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
+                AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
+                Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
+
+                Intent intentMapa = new Intent(Intent.ACTION_VIEW);
+                intentMapa.setData(Uri.parse("geo:0,0?q="+aluno.getEndereco()));
+                return false;
+            }
+        });
+
+        MenuItem itemSMS = menu.add("SMS");
+        itemSMS.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
+                AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
+                Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
+
+                Intent intentMapa = new Intent(Intent.ACTION_VIEW);
+                intentMapa.setData(Uri.parse("sms:"+aluno.getTelefone()));
+                return false;
+            }
+        });
+
+        MenuItem itemCamera = menu.add("CAMERA");
+        itemCamera.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem menuItem) {
+                AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
+                AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
+                Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
+
+                //Intent intentMapa = new Intent();
+               // intentMapa.setData(Uri.parse("sms:0,0?q="+aluno.getEndereco()));
                 return false;
             }
         });

@@ -1,0 +1,4 @@
+#Sat Nov 04 16:23:41 BRST 2017
+base.0=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

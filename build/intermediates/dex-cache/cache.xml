@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_fa98733fd35df7afb7ad0428716aebb65cbb8632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_111f8262f72c37f42dbbff41d4919147a93ab986.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.0_e55778fb71d2be19cbaa37c8a251b925dc688d56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_cf4aba4fde3881cc82ca7b54ba4a7047f50afe07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.0_9112b90cddf6dc14a19e78ef2e9badabe1f89b6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_73f7cbd9962157621d2bcfc78199d34aab664170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_c7222a6ae09fe6f37e33bfdbeeac5d91eae020ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_4a48335be91619e0809a61ac2b54348bb5c4f76f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_29217570eca9b2e48fdb1cc19506a4edbb7d3a1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.0_fe97e5b46dd149ea643d3bde5d5cff5b76c41887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_396d5837c9594193a23ceaeeaa7df55adf58e678.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_4571668f00a56bb1c1ef96c951c1fe8797b65883.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_170485f3404fadcc2385f9fc425265093a1b5654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3e66a7e91956d9c62350fd47300837ab7cba797d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_29a08430052cd5d153df9c786200a924d30dabea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_06fa65de110a0da5f2f200c0e73523bd5bf26c4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_109f41ff5de88088ee5211df1fb0838f13f91260.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_beacaf12efcf58e7e7d948ef830febb30351616a.jar" />
+    </item>
+
+</items>
