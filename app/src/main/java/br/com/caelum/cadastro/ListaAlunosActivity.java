@@ -16,9 +16,12 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.List;
+import java.util.Queue;
 
+import br.com.caelum.cadastro.Adapter.ListaAlunoAdapter;
 import br.com.caelum.cadastro.DAO.AlunoDao;
 import br.com.caelum.cadastro.Models.Aluno;
+import br.com.caelum.cadastro.Permissions.Permissao;
 
 public class ListaAlunosActivity extends AppCompatActivity {
     private ListView listaAlunos;
@@ -29,6 +32,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        Permissao.fazPermissao(this);
         // SETA O LAYOUT
         setContentView(R.layout.activity_lista_alunos);
 
@@ -40,7 +44,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
        // final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, alunos);
 
        // SETA O ARRAYADAPTER DENTRO NA LISTVIEW
-        //listaAlunos.setAdapter(adapter);
         carregaLista();
 
         // CLICK - EDIT USER
@@ -56,16 +59,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
         // REGISTRA NO O MENU CONTEXT
         registerForContextMenu(listaAlunos);
-
-        // LONG CLICK
-       /* listaAlunos.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(ListaAlunosActivity.this, "Ola clique longo no item - "+listaAlunos.getItemAtPosition(i), Toast.LENGTH_LONG).show();
-
-                return false;
-            }
-        });*/
 
 
         // REDIRECT PARA A ACTIVY DE CADASTRO
@@ -90,6 +83,13 @@ public class ListaAlunosActivity extends AppCompatActivity {
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, final ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
+
+        // GET ALUNO
+        AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
+        Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
+        // END GET ALUNO
+
         MenuItem item = menu.add("Deletar");
         item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
@@ -104,33 +104,45 @@ public class ListaAlunosActivity extends AppCompatActivity {
             }
         });
 
+
+        // MAPA
         MenuItem itemMapa = menu.add("Mapa");
-        itemMapa.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem menuItem) {
-                AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
-                AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
-                Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
+        Intent intentMapa = new Intent(Intent.ACTION_VIEW);
+        intentMapa.setData(Uri.parse("geo:0,0?q="+aluno.getEndereco()));
+        itemMapa.setIntent(intentMapa);
+        // END MAPA
 
-                Intent intentMapa = new Intent(Intent.ACTION_VIEW);
-                intentMapa.setData(Uri.parse("geo:0,0?q="+aluno.getEndereco()));
-                return false;
+        // SITE
+        MenuItem itemSite = menu.add("Site");
+        String site = aluno.getSite();
+        if(site != null){
+            if(!site.startsWith("http://")){
+                site = "http://"+aluno.getSite();
             }
-        });
+        }else{
+            site =  "http://teste.com";
+        }
+        Intent intentSite = new Intent(Intent.ACTION_VIEW);
+        intentSite.setData(Uri.parse(site));
+        itemSite.setIntent(intentSite);
+        // END SITE
 
+
+        // SMS
         MenuItem itemSMS = menu.add("SMS");
-        itemSMS.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem menuItem) {
-                AlunoDao alunoDao = new AlunoDao(ListaAlunosActivity.this);
-                AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) menuInfo;
-                Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
+        Intent intentSMS = new Intent(Intent.ACTION_VIEW);
+        intentSMS.setData(Uri.parse("sms:"+aluno.getTelefone()));
+        itemSMS.setIntent(intentSMS);
+        // END SMS
 
-                Intent intentMapa = new Intent(Intent.ACTION_VIEW);
-                intentMapa.setData(Uri.parse("sms:"+aluno.getTelefone()));
-                return false;
-            }
-        });
+
+        // LIGAR
+        MenuItem ligar = menu.add("Ligar");
+
+        Intent intentLigar = new Intent(Intent.ACTION_DIAL);
+        intentLigar.setData(Uri.parse("tel:"+aluno.getTelefone()));
+        ligar.setIntent(intentLigar);
+        // END LIGAR
 
         MenuItem itemCamera = menu.add("CAMERA");
         itemCamera.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
@@ -142,6 +154,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
                 //Intent intentMapa = new Intent();
                // intentMapa.setData(Uri.parse("sms:0,0?q="+aluno.getEndereco()));
+                //startActivity(intentSMS);
                 return false;
             }
         });
@@ -150,7 +163,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
     public void carregaLista(){
         AlunoDao alunoDao = new AlunoDao(this);
         List<Aluno> alunos = alunoDao.lista();
-        ArrayAdapter<Aluno> adapter  = new ArrayAdapter<Aluno>(this,android.R.layout.simple_list_item_1, alunos);
+        ListaAlunoAdapter adapter = new ListaAlunoAdapter(this,alunos);
         listaAlunos.setAdapter(adapter);
 
     }

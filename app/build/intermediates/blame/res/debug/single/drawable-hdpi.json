@@ -12,12 +12,12 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-hdpi/ic_no_image.png"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_enviar.png",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-hdpi/ic_enviar.png"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_confirmar.png",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-hdpi/ic_confirmar.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_enviar.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-hdpi/ic_enviar.png"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",

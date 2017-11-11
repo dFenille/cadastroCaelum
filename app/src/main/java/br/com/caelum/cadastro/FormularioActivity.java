@@ -1,6 +1,9 @@
 package br.com.caelum.cadastro;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,12 +14,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.io.File;
+
 import br.com.caelum.cadastro.DAO.AlunoDao;
 import br.com.caelum.cadastro.Helpers.FormularioHelper;
 import br.com.caelum.cadastro.Models.Aluno;
 
 public class FormularioActivity extends AppCompatActivity {
-    public FormularioHelper helper;
+    private FormularioHelper helper;
+    private String localArquivoFoto;
+    public static final int TIRA_FOTO = 123;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +37,31 @@ public class FormularioActivity extends AppCompatActivity {
             this.helper.preencheFormulario(aluno);
         }
 
+        Button foto = helper.getButton();
+        foto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                localArquivoFoto = getExternalFilesDir(null) + "/" + System.currentTimeMillis()+".jpg";
+                Intent irParaCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Uri localFoto = Uri.fromFile(new File(localArquivoFoto));
+                irParaCamera.putExtra(MediaStore.EXTRA_OUTPUT,localFoto);
+                startActivityForResult(irParaCamera,123);
+            }
+        });
+
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == TIRA_FOTO){
+            if(resultCode == Activity.RESULT_OK){
+                helper.carregaImagem(this.localArquivoFoto);
+            }else{
+                this.localArquivoFoto = null;
+            }
+        }
     }
 
     // MENU FORMULARIO

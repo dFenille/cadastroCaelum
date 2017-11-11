@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,9 +17,9 @@ import br.com.caelum.cadastro.Models.Aluno;
  */
 
 public class AlunoDao extends SQLiteOpenHelper {
-
+    public static final int VERSAO = 2;
     public AlunoDao(Context context){
-        super(context,"CadastroCaelum", null, 1);
+        super(context,"CadastroCaelum", null, VERSAO);
 
     }
 
@@ -29,7 +30,8 @@ public class AlunoDao extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int versaoAnterior, int versaoNova) {
-        String sql = "DROP TABLE IF EXISTS ALUNOS";
+        //String sql = "DROP TABLE IF EXISTS ALUNOS";
+        String sql = "ALTER TABLE ALUNOS ADD COLUMN caminhoFoto TEXT";
         db.execSQL(sql);
     }
 
@@ -40,6 +42,7 @@ public class AlunoDao extends SQLiteOpenHelper {
         dados.put("telefone",aluno.getTelefone());
         dados.put("endereco",aluno.getEndereco());
         dados.put("nota",aluno.getNota());
+        dados.put("caminhoFoto", aluno.getCaminhoFoto());
         db.insert("alunos",null,dados);
     }
 
@@ -56,6 +59,7 @@ public class AlunoDao extends SQLiteOpenHelper {
             aluno.setSite(c.getString(c.getColumnIndex("site")));
             aluno.setTelefone(c.getString(c.getColumnIndex("telefone")));
             aluno.setNota(c.getDouble(c.getColumnIndex("nota")));
+            aluno.setCaminhoFoto(c.getString(c.getColumnIndex("caminhoFoto")));
             alunos.add(aluno);
         }
         c.close();
@@ -70,11 +74,21 @@ public class AlunoDao extends SQLiteOpenHelper {
         dados.put("site",aluno.getSite());
         dados.put("telefone",aluno.getTelefone());
         dados.put("nota",aluno.getNota());
+        dados.put("caminhoFoto", aluno.getCaminhoFoto());
+
         db.update("alunos",dados,"id = ?",new String[]{aluno.getId().toString()});
     }
 
     public void excluir(Aluno aluno){
         SQLiteDatabase db = getWritableDatabase();
         db.delete("alunos","id=?",new String[]{aluno.getId().toString()});
+    }
+
+    public boolean isAluno(String telefone){
+        String[] parametros = {telefone};
+        Cursor rawQuery = getReadableDatabase().rawQuery("SELECT telefone FROM ALUNOS WHERE telefone = ?", parametros);
+        int total = rawQuery.getCount();
+        rawQuery.close();
+        return total > 0 ;
     }
 }

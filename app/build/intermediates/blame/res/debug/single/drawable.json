@@ -76,12 +76,12 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -94,6 +94,10 @@
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/formulario_foto_button.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable/formulario_foto_button.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
@@ -112,16 +116,20 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
@@ -130,10 +138,6 @@
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/design_ic_visibility.xml",

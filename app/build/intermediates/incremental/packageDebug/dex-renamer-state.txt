@@ -1,4 +1,7 @@
-#Sat Nov 04 16:23:41 BRST 2017
-base.0=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sat Nov 11 16:53:58 BRST 2017
+base.0=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4dc248d350c8914279135a25b27504b737400b0f
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_579e34b42984e6dbcfbf89531d8c818a26b62de8/classes.dex
+base.1=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_579e34b42984e6dbcfbf89531d8c818a26b62de8
+file.0=/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4dc248d350c8914279135a25b27504b737400b0f/classes.dex
