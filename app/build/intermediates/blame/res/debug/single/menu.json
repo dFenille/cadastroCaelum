@@ -2,5 +2,9 @@
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/menu/menu_formulario.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/menu/menu_formulario.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/menu/menu_lista_alunos.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/menu/menu_lista_alunos.xml"
     }
 ]

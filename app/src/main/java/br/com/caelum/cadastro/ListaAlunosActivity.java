@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -22,6 +23,9 @@ import br.com.caelum.cadastro.Adapter.ListaAlunoAdapter;
 import br.com.caelum.cadastro.DAO.AlunoDao;
 import br.com.caelum.cadastro.Models.Aluno;
 import br.com.caelum.cadastro.Permissions.Permissao;
+import br.com.caelum.cadastro.Support.WebClient;
+import br.com.caelum.cadastro.converter.AlunoConverter;
+import br.com.caelum.cadastro.task.EnviaAlunoTask;
 
 public class ListaAlunosActivity extends AppCompatActivity {
     private ListView listaAlunos;
@@ -37,13 +41,13 @@ public class ListaAlunosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_alunos);
 
         // ARRAY DE STRINGS
-       // String[] alunos = {"Anderson","Filipe","Guilherme"};
+        // String[] alunos = {"Anderson","Filipe","Guilherme"};
         // CAPTURA A LISTVIEW DO LAYOUT
         this.listaAlunos = (ListView) findViewById(R.id.lista_alunos);
         // SETA O ARRAY DE STRING DENTRO DE UM ARRAYADAPTER
-       // final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, alunos);
+        // final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, alunos);
 
-       // SETA O ARRAYADAPTER DENTRO NA LISTVIEW
+        // SETA O ARRAYADAPTER DENTRO NA LISTVIEW
         carregaLista();
 
         // CLICK - EDIT USER
@@ -77,7 +81,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-       carregaLista();
+        carregaLista();
     }
 
     @Override
@@ -153,11 +157,30 @@ public class ListaAlunosActivity extends AppCompatActivity {
                 Aluno aluno = (Aluno) listaAlunos.getItemAtPosition(info.position);
 
                 //Intent intentMapa = new Intent();
-               // intentMapa.setData(Uri.parse("sms:0,0?q="+aluno.getEndereco()));
+                // intentMapa.setData(Uri.parse("sms:0,0?q="+aluno.getEndereco()));
                 //startActivity(intentSMS);
                 return false;
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_lista_alunos,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+            case R.id.menu_enviar_notas:
+                EnviaAlunoTask alunoTask = (EnviaAlunoTask) new EnviaAlunoTask(this).execute();
+
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     public void carregaLista(){

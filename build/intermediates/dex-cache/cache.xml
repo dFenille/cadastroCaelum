@@ -66,11 +66,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-21.0.3_0a5df3185388508513a64452622e26e9daaa1273/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0cf93041d28137ec02d239639c270342a88e56a2">
+        sha1="13259d69c1a884cf50df42ae04ba0112c903324b">
         <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_579e34b42984e6dbcfbf89531d8c818a26b62de8/classes.dex" />
     </item>
     <item
@@ -156,15 +165,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2253b01895fc87651cd56bc0a53a6daa10136ba">
-        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4dc248d350c8914279135a25b27504b737400b0f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/android7087/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -180,6 +180,15 @@
         revision="25.0.0"
         sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
         <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_9112b90cddf6dc14a19e78ef2e9badabe1f89b6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8771b5dff358500deee8a52afd65cf374548d730">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4dc248d350c8914279135a25b27504b737400b0f/classes.dex" />
     </item>
 
 </items>
