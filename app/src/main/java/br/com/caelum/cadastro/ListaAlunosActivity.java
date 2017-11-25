@@ -176,8 +176,13 @@ public class ListaAlunosActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.menu_enviar_notas:
                 EnviaAlunoTask alunoTask = (EnviaAlunoTask) new EnviaAlunoTask(this).execute();
-
-                return true;
+            case R.id.menu_receber_provas:
+                Intent provas = new Intent(this,ProvasActivity.class);
+                startActivity(provas);
+            case R.id.menu_mapa:
+                Intent mapa = new Intent(this,MostraAlunosActivity.class);
+                startActivity(mapa);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

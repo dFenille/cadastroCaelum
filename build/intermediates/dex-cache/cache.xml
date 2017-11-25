@@ -12,12 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_e55778fb71d2be19cbaa37c8a251b925dc688d56/classes.dex" />
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-6.1.71_a9e7fc3f91c72a450d0be8932c9586e9490afabd/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -27,15 +27,6 @@
         revision="25.0.0"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
         <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_396d5837c9594193a23ceaeeaa7df55adf58e678/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_fa98733fd35df7afb7ad0428716aebb65cbb8632/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,11 +66,56 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_4571668f00a56bb1c1ef96c951c1fe8797b65883/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_109f41ff5de88088ee5211df1fb0838f13f91260/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/android7087/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_29a08430052cd5d153df9c786200a924d30dabea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_e55778fb71d2be19cbaa37c8a251b925dc688d56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_fa98733fd35df7afb7ad0428716aebb65cbb8632/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="13259d69c1a884cf50df42ae04ba0112c903324b">
+        sha1="f48156b4ab617147d998182e8f149ee335010845">
         <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_579e34b42984e6dbcfbf89531d8c818a26b62de8/classes.dex" />
     </item>
     <item
@@ -90,15 +126,6 @@
         revision="25.0.0"
         sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
         <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_29217570eca9b2e48fdb1cc19506a4edbb7d3a1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_4571668f00a56bb1c1ef96c951c1fe8797b65883/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,24 +183,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_109f41ff5de88088ee5211df1fb0838f13f91260/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/android7087/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_29a08430052cd5d153df9c786200a924d30dabea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -187,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8771b5dff358500deee8a52afd65cf374548d730">
+        sha1="d1f46265a0fbecd13d292f7c64342ae99980b010">
         <dex dex="/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4dc248d350c8914279135a25b27504b737400b0f/classes.dex" />
     </item>
 

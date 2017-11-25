@@ -4,24 +4,8 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
@@ -36,24 +20,8 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -68,12 +36,88 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_dark.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_light.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_light.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -86,10 +130,6 @@
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
@@ -116,10 +156,6 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_list_selector_holo_light.xml"
     },
@@ -144,6 +180,10 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/design_ic_visibility.xml"
     },
     {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_dark.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
@@ -152,31 +192,7 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_borderless_material.xml"
     }
 ]

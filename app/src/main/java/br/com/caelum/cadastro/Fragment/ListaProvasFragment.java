@@ -15,6 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import br.com.caelum.cadastro.Models.Prova;
+import br.com.caelum.cadastro.ProvasActivity;
 import br.com.caelum.cadastro.R;
 
 /**
@@ -27,6 +28,7 @@ public class ListaProvasFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View layoutProvas = inflater.inflate(R.layout.fragment_lista_provas,container,false);
+        this.listViewProvas = (ListView) layoutProvas.findViewById(R.id.lista_provas_listview);
 
         Prova prova1 = new Prova("20/06/2015","Matematica");
         prova1.setTopicos(Arrays.asList("Algebra Linear","Calculo","Estatistica"));
@@ -43,8 +45,13 @@ public class ListaProvasFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Prova selecionada = (Prova) adapterView.getItemAtPosition(i);
                 Toast.makeText(getActivity(),"Prova Selecionada:"+selecionada, Toast.LENGTH_SHORT).show();
+
+                ProvasActivity calendarioProvas = (ProvasActivity) getActivity();
+                calendarioProvas.selecionaProva(selecionada);
             }
         });
         return layoutProvas;
     }
+
+
 }

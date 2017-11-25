@@ -8,12 +8,96 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_camera.png"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_receber.png",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_receber.png"
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_tall_off_client.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_dark.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mapa.png",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_mapa.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_confirmar.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_confirmar.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_no_image.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_no_image.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_focus_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_small_off_client.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_receber.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_receber.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_medium_off_client.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_normal_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
@@ -24,15 +108,35 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_enviar.png"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_confirmar.png",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_confirmar.png"
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_standard_off_client.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_light.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_preferencias.png",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_preferencias.png"
-    },
-    {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_no_image.png",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/drawable-xhdpi/ic_no_image.png"
     }
 ]

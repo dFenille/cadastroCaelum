@@ -16,6 +16,10 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/content_provas.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/layout/content_provas.xml"
+    },
+    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_item.xml"
     },
@@ -84,6 +88,10 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/fragment_detalhes_prova.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/layout/fragment_detalhes_prova.xml"
+    },
+    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_menu_item.xml"
     },
@@ -144,12 +152,12 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/layout/item.xml"
     },
     {
-        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
@@ -192,6 +200,10 @@
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_view.xml"
     },
     {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/activity_mostra_alunos.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/layout/activity_mostra_alunos.xml"
+    },
+    {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_layout.xml"
     },
@@ -222,6 +234,10 @@
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/activity_provas.xml",
+        "source": "/home/android7087/AndroidStudioProjects/Cadastro/app/src/main/res/layout/activity_provas.xml"
     },
     {
         "merged": "/home/android7087/AndroidStudioProjects/Cadastro/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
